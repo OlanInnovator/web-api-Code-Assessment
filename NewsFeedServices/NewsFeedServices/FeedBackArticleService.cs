@@ -111,7 +111,7 @@ namespace NewsFeedServices.NewsFeedServices
                 Body = arg.Body,
                 ImageUrl = arg.ImageUrl,
                 CreatedDate = arg.CreatedDate,
-                UpdatedDate = arg.UpdatedDate.ToString("dddd, dd MMMM yyyy")
+                UpdatedDate = arg.UpdatedDate.ToString("dddd, dd MMMM yyyy HH:mm:ss")
             };
         }
 
